@@ -1,0 +1,69 @@
+1) Посмотреть где я
+pwd
+
+2) Создать папку
+mkdir foldername
+
+3) Зайти в папку
+cd foldername (or fullpath, if folder not in the current directory)
+
+4) Создать 3 папки
+mkdir folder1 folder2
+
+5) Зайти в любоую папку
+cd folder1
+
+6) Создать 5 файлов (3 txt, 2 json)
+touch 1.txt 2.txt 3.txt 1.json 2.json
+
+7) Создать 3 папки
+mkdir folder1_1 folder1_2 folder1_3
+
+8. Вывести список содержимого папки
+ls
+
+9) + Открыть любой txt файл
+nano 1.txt
+
+10) + написать туда что-нибудь, любой текст.
+just put any text as in regular txt file
+
+11) + сохранить и выйти.
+Ctrl+O >> Enter >> Ctrl+X
+
+12) Выйти из папки на уровень выше
+cd ..
+
+
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+mv folder1/1.txt folder1/1.json -t folder2
+
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+cp folder1/2.txt folder1/2.json -t folder2
+
+15) Найти файл по имени
+find -name 1.txt
+
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+tail -f ./folder2/1.txt
+
+17) вывести несколько первых строк из текстового файла
+head -3 ./folder2/1.txt
+
+18) вывести несколько последних строк из текстового файла
+tail -3 ./folder2/1.txt
+
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+less ./folder2/1.txt >> Q
+
+20) вывести дату и время
+date
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+а) curl "http://162.55.220.72:5005/terminal-hw-request"
+б) curl "http://162.55.220.72:5005/get_method?name=Vlad&age=22"
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+Check the "Plikin_Homework.sh"
