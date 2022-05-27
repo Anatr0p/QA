@@ -1,0 +1,153 @@
+1) Create dir_1 folder
+mkdir dir_1
+
+2) Move into it
+cd dir_1
+
+3) Create inner_dir_1 folder
+mkdir inner_dir_1
+
+4) Check current path
+pwd
+
+5) Make the tf_1.txt empty file at dir_1
+touch tf_1.txt
+
+6) Make the tf_2.txt file via cat from dir_1
+cat > tf_2.txt
+
+the first 1
+the second 2
+the third 3
+
+Ctrl+C
+
+7) Move to inner_dir_1
+cd inner_dir_1
+
+8) Make the tf_3.txt file via cat with any stings in it
+cat > tf_3.txt
+
+1
+2
+3
+
+Ctrl+C
+
+9) Add a new "the second 2" string to tf_3.txt
+cat >> tf_3.txt
+
+the second 2
+
+Ctrl+C
+
+10) Add a new "the sec 2" string to tf_3.txt
+cat >> tf_3.txt
+
+the sec 2
+
+Ctrl+C
+
+11) Add a new "the sec 3" string to tf_2.txt from inner_dir_1
+cat >> ../tf_2.txt
+
+the sec 3
+
+Ctrl+C
+
+12) Add a new "the SeCoNd 2" string to tf_3.txt
+cat >> tf_3.txt
+
+the SeCoNd 2
+
+Ctrl+C
+
+13) Add a new "the seConD 2" string to tf_2.txt from inner_dir_1
+cat >> ../tf_2.txt
+
+the seConD 2
+
+Ctrl+C
+
+14) Make a tf_4.txt with 15 strings in it
+yes 1 | dd of=tf_4.txt bs=1 count=29
+
+15) Make a tF_5.txt with 13 strings in it
+yes 1 | dd of=tF_5.txt bs=1 count=25
+
+16) Output the folder content
+ls -la
+
+17) Move out from inned_dir_1
+cd ..
+
+18) Output the tf_3.txt content
+cat inner_dir_1/tf_3.txt
+
+19) Found the tf_4.txt path
+realpath tf_4.txt
+
+20) Clear the tf_4.txt content w/o deleting
+cat > inner_dir_1/tf_4.txt
+
+Ctrl+C
+
+21) Find files with "tf" in filenames
+find | grep tf
+
+22) Find path to all files with "tf" and any letters in filenames
+find | grep 'tf\|[[:alpha:]]'
+
+23) Find path to all file that contains "sec" combination of letters
+find | grep '[sec]'
+
+24) Find files with strings contains "sec" combination in any case
+grep -ri sec /fullfolderpath/
+
+25) Find files with strings contains "sec" combination in strings as separete word
+grep -rw sec /fullfolderpath/
+
+26) Find files with strings contains "sec" combination in any case as separete word
+grep -rwi sec /fullfolderpath/
+
+27) Find files with strings contains "second" combination of letters
+grep -r second /fullfolderpath/
+
+28) Find files with strings contains "second" combination of letters in any case
+grep -ri second /fullfolderpath/
+
+29) Find files with strings contains "second" combination of letters in higher lvl folder
+grep -r '[second]' ../
+
+30) Find all files that contains "second" combination of letters, but output file path and name only
+grep -rl '[second]' /fullfolderpath/
+
+31) Find all files with strings without "second" combination
+grep -rv '[second]' /fullfolderpath/
+
+32) Find all files with strings without "second" combination, but output file path and name only
+grep -rvl '[second]' /fullfolderpath/
+
+33) Output last 4 strings of any text file
+tail 4 tf_2.txt
+
+34) Output first 4 strings of any text file
+head 4 tf_2.txt
+
+35) One-line command. Crate a folder and text file in it with any content
+echo "anything" > anyfile.txt
+
+36) One-line command. Move files, which contains word "sec" to any folder
+grep -rwl sec /fullfolderpath/ | xargs -I{} mv {} inner_dir_1/
+
+37) One-line command. Copy text files, which contains word "sec" to any folder
+grep -rwl sec /fullfolderpath/ | xargs -I{} cp {} inner_dir_1/
+
+38) One-line command. Find all files with strigs, which contains "sec", then copy and paste those strings into a new file.
+grep -rh sec /fullfolderpath/ > blank.txt
+
+39) One-line command. Find all files with strings, which contains "sec" and delete it.
+grep -rl sec /e/_QA/Course\ -\ Ksendzov/Homework/Homework_2_bash+/dir_1 | xargs -I{} rm {}
+
+40) Make "Good job!" string output
+echo Good job!
