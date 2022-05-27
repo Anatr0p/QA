@@ -1,0 +1,122 @@
+Short:
+git clone https://github.com/Anatr0p/JSON
+git add new.json
+[
+	{
+		"name": "Vladislav",
+		"surname": "Plikin",
+		"pets": "N/A",
+		"salary": "three rice plates per week"
+	}
+]
+git commit new.json -m "new.json file added"
+git push
+git add preferences.json skills.json
+git commit preferences.json skills.json -m "preferenses and skills files addes in JSON format"
+git push
+Create the "bug_report.json" file via github web
+Open repo the page - https://github.com/Anatr0p/JSON
+Click "Add file"
+Click "Create new file"
+Fill the name form on the top-right corner - JSON/bug_report.json
+Scroll down, fill the commit info, left branch settings untouched to commit to main branch and click "Commit new file"
+git pull
+
+
+1) Make the JSON repo on github
+2) Clone that repo on pc
+git clone https://github.com/Anatr0p/JSON
+3) Create "new.json" file
+cd JSON
+touch new.json
+4) Add it to git
+git add new.json
+5) commit that file
+git commit new.json -m "new.json file added"
+6) send that file to the JSON github repo
+git push
+7) make changes in the new.json file in JSON format
+nano new.json
+
+[
+	{
+		"name": "Vladislav",
+		"surname": "Plikin",
+		"pets": "N/A",
+		"salary": "three rice plates per week"
+	}
+]
+
+Ctrl+O > Enter > Ctrl+X
+8) upload changes of new.json to JSON remote repo
+git add new.json
+git commit new.json -m "new.json file changed"
+9) make the "preferences.json" file and put some info in it
+nano preferences.json
+
+[
+	{
+		"movie": "Interstellar",
+		"series": "See",
+		"food": "Wheat noodles",
+		"season": "fall",
+		"country": "Ireland"
+	}
+]
+Ctrl+O > Enter > Ctrl+X
+
+10) Make the "skills.json" file and put some info in it as well
+nano skills.json
+
+[
+	{
+		"first": "qa theory",
+		"second": "instruments for files and versions operations",
+		"third": "qa instruments such a devtools, postman, charles, testrail, etc",
+		"fourth": "JS programming language (basics) via Node.JS platform for Postman",
+		"???": "???"
+	}
+]
+
+Ctrl+O > Enter > Ctrl+X
+
+11) Upload both files to repo
+git add preferences.json skills.json
+git commit preferences.json skills.json -m "preferenses and skills files addes in JSON format"
+git push
+
+12) Create the "bug_report.json" file via github web
+Open repo the page - https://github.com/Anatr0p/JSON
+Click "Add file"
+Click "Create new file"
+Fill the name form on the top-right corner - JSON/bug_report.json
+
+13) Commit new file
+Scroll down, fill the commit info, left branch settings untouched to commit to main branch and click "Commit new file"
+
+14) Change the file content in JSON format and commit it
+All the same as in 12 and 13
+
+15) Sync remote repo with the local one on pc
+
+check the current JSON folder content on the PC
+ls
+got only new, preferences and skills json files
+
+git pull
+
+now we can see the bug_report.json file added to our JSON PC folder
+
+That's all about JSON one
+XML and TXT I'll make identically, but with git remore rename upstream to change working repo for pushes
+
+XML format:
+<1>
+	<1_1>text</1_1>
+	<1_2>text</1_2>
+</1>
+
+At the end we got the next repos:
+https://github.com/Anatr0p/JSON
+https://github.com/Anatr0p/TXT
+https://github.com/Anatr0p/XML
