@@ -1,0 +1,9 @@
+BUG REPORT 1
+Title: Test title
+Severity/Priority: Test severity & priority
+Description: Test
+Environment: Test
+Steps to reproduce: Test
+Expected result: Test
+Actual result: Test
+Attachments: Test
