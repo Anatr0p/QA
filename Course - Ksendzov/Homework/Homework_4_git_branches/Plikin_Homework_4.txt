@@ -1,0 +1,37 @@
+1. Create new branches on the local repo:
+- Postman
+- Jmeter
+- CheckLists
+- BugReports
+- SQL
+- Charles
+- Mobile testing
+
+git branch branchname
+
+2. Push all branches to the remote repor
+git push origin --all
+
+3. Create a bug report file in BugReports branch.
+git checkout BugReports && git touch bugreport_1.txt
+
+4. Push the bug report to remote repo
+git add bugreport_1.txt && git commit bugreport_1.txt -m "bugreport_1 added" && git push
+
+5. Merge BugReports and main branches
+git merge BugReports main
+
+6. Push main to the remote repo
+push origin main
+
+7. Create a checklist file in the CheckLists branche
+touch checklist_1.txt
+
+8. Push the checklist file to remote repo
+git add checklist_1.txt && git commit checklist_1.txt -m "checklist_1 added" && git push
+
+9. Make a pull request for CheckLists
+Just use "Compare & pull request button on GitHub"
+
+10. Sync local repo with remote
+git checkout main && git pull
