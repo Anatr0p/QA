@@ -3,9 +3,10 @@
   
   <details>
     <summary>Video</summary>
-  
+    
     [![IMAGE ALT TEXT](http://img.youtube.com/vi/LlqjTVq6BzQ/0.jpg)](http://www.youtube.com/watch?v=LlqjTVq6BzQ)
   </details>
+  
   <details>
     <summary>Hometask 1</summary>
     
@@ -43,6 +44,7 @@
     http://162.55.220.72:5005/terminal-hw-request
     2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
   </details>
+  
 </details>
 
 <details>
