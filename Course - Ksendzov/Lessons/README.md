@@ -13,7 +13,7 @@
 <details>
   <summary>Lesson 2 - Git</summary>
   
-  [![IMAGE ALT TEXT](http://img.youtube.com/vi/07Ln46Y0Rik/0.jpg)](http://www.youtube.com/watch?v=Y_G04OcFXMA)
+  [![IMAGE ALT TEXT](http://img.youtube.com/vi/Y_G04OcFXMA/0.jpg)](http://www.youtube.com/watch?v=Y_G04OcFXMA)
 </details>
 
 <details>
