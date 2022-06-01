@@ -3,5 +3,5 @@
 
  
 
-  [![IMAGE ALT TEXT](http://img.youtube.com/vi/LlqjTVq6BzQ/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_LlqjTVq6BzQ "Lesson 0 - Intro")
+  [![IMAGE ALT TEXT](http://img.youtube.com/vi/LlqjTVq6BzQ/0.jpg)](http://www.youtube.com/watch?v=LlqjTVq6BzQ "Lesson 0 - Intro")
 </details>
