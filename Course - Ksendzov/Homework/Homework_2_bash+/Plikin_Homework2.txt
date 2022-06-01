@@ -101,32 +101,32 @@ find | grep 'tf\|[[:alpha:]]'
 23) Find path to all file that contains "sec" combination of letters
 find | grep '[sec]'
 
-24) Find files with strings contains "sec" combination in any case
-grep -ri sec /fullfolderpath/
+24) Find files with strings contains "sec" combination in any case in current folder
+grep -i sec *
 
-25) Find files with strings contains "sec" combination in strings as separete word
-grep -rw sec /fullfolderpath/
+25) Find files with strings contains "sec" combination in strings as separete word in current folder
+grep -w sec *
 
-26) Find files with strings contains "sec" combination in any case as separete word
-grep -rwi sec /fullfolderpath/
+26) Find files with strings contains "sec" combination in any case as separete word in current folder
+grep -wi sec * 
 
-27) Find files with strings contains "second" combination of letters
-grep -r second /fullfolderpath/
+27) Find files with strings contains "second" combination of letters in current folder
+grep second *
 
-28) Find files with strings contains "second" combination of letters in any case
-grep -ri second /fullfolderpath/
+28) Find files with strings contains "second" combination of letters in any case in current folder
+grep -i second *
 
-29) Find files with strings contains "second" combination of letters in higher lvl folder
-grep -r '[second]' ../
+29) Find files with strings contains "second" combination of letters in lower lvl folder in current folder
+grep '[second]' /inner_dir_1
 
 30) Find all files that contains "second" combination of letters, but output file path and name only
-grep -rl '[second]' /fullfolderpath/
+grep -l '[second]' *
 
 31) Find all files with strings without "second" combination
-grep -rv '[second]' /fullfolderpath/
+grep -rv '[second]' *
 
 32) Find all files with strings without "second" combination, but output file path and name only
-grep -rvl '[second]' /fullfolderpath/
+grep -rvl '[second]' *
 
 33) Output last 4 strings of any text file
 tail 4 tf_2.txt
@@ -138,16 +138,16 @@ head 4 tf_2.txt
 echo "anything" > anyfile.txt
 
 36) One-line command. Move files, which contains word "sec" to any folder
-grep -rwl sec /fullfolderpath/ | xargs -I{} mv {} inner_dir_1/
+grep -rwl sec * | xargs -I{} mv {} inner_dir_1/
 
 37) One-line command. Copy text files, which contains word "sec" to any folder
-grep -rwl sec /fullfolderpath/ | xargs -I{} cp {} inner_dir_1/
+grep -rwl sec * | xargs -I{} cp {} inner_dir_1/
 
 38) One-line command. Find all files with strigs, which contains "sec", then copy and paste those strings into a new file.
-grep -rh sec /fullfolderpath/ > blank.txt
+grep -rh sec * > blank.txt
 
 39) One-line command. Find all files with strings, which contains "sec" and delete it.
-grep -rl sec /e/_QA/Course\ -\ Ksendzov/Homework/Homework_2_bash+/dir_1 | xargs -I{} rm {}
+grep -rl sec * | xargs -I{} rm {}
 
 40) Make "Good job!" string output
 echo Good job!
