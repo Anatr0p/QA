@@ -1,7 +1,7 @@
 <details>
   <summary>Lesson 0 - Intro</summary>
   
-  <a href = http://www.youtube.com/watch?v=LlqjTVq6BzQ>Video</a>
+  <a href="http://www.youtube.com/watch?v=LlqjTVq6BzQ">Video</a>
   
   <details>
     <summary>Hometask 1</summary>
