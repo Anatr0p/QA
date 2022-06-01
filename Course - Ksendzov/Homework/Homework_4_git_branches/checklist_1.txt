@@ -1,0 +1,18 @@
+Project:
+URL:
+Info:
+
+Section 1:
+	Item 1:
+		Result:
+		Comment:
+	Item 2:
+		Result:
+		Comment:
+Section 2:
+	Item 1:
+		Result:
+		Comment:
+	Item 2:
+		Result:
+		Comment:
