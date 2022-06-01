@@ -1,11 +1,7 @@
 <details>
   <summary>Lesson 0 - Intro</summary>
   
-  <details>
-    <summary>Video</summary>
-    
-    [![IMAGE ALT TEXT](http://img.youtube.com/vi/LlqjTVq6BzQ/0.jpg)](http://www.youtube.com/watch?v=LlqjTVq6BzQ)
-  </details>
+  <a href = http://www.youtube.com/watch?v=LlqjTVq6BzQ>Video</a>
   
   <details>
     <summary>Hometask 1</summary>
@@ -50,7 +46,10 @@
 <details>
   <summary>Lesson 1 - Terminal</summary>
   
-  [![IMAGE ALT TEXT](http://img.youtube.com/vi/07Ln46Y0Rik/0.jpg)](http://www.youtube.com/watch?v=07Ln46Y0Rik)
+  <details>
+    <summary>Homework 2</summary>
+  </details>
+  
 </details>
 
 <details>
