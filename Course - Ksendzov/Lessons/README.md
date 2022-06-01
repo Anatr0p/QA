@@ -1,7 +1,7 @@
 <details>
-  <summary>Example</summary>
+  <summary>Lesson 0 - Intro</summary>
 
-  ```
-  long console output here
-  ```
+ 
+
+  [![IMAGE ALT TEXT](http://img.youtube.com/vi/LlqjTVq6BzQ/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_LlqjTVq6BzQ "Lesson 0 - Intro")
 </details>
